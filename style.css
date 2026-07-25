@@ -1,17 +1,15 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: #0b0c10;
-  color: #eaeaea;
+  background: linear-gradient(135deg, #f3ecff 0%, #d8dee9 100%);
+  color: #374151;
 }
 
 h1 {
   font-size: 52px;
   margin: 0;
   letter-spacing: -1px;
-  background: linear-gradient(90deg, #6ee7ff, #a78bfa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #4c7ca9; /* Soft Dusty Blue */
 }
 
 .container {
@@ -27,11 +25,11 @@ h1 {
 h2 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #4b5563; /* Muted grey for softer contrast */
 }
 
 p {
-  color: #cbd5e1;
+  color: #333333; /* Set main text color to deep charcoal */
   line-height: 1.6;
 }
 
@@ -42,14 +40,14 @@ p {
 
 .subtitle {
   margin-top: 14px;
-  color: #cbd5e1;
+  color: #525252; /* Darker grey for contrast against the new background */
   line-height: 1.6;
   max-width: 520px;
 }
 
 .links a {
   margin-right: 14px;
-  color: #6ee7ff;
+  color: #a78bfa; /* Keeping a soft purple for consistency */
   text-decoration: none;
   transition: 0.2s;
 }
@@ -60,10 +58,10 @@ p {
 
 .card {
   padding: 16px;
-  border: 1px solid #1f2937;
+  border: 1px solid #e5e7eb;
   border-radius: 10px;
   margin-top: 10px;
-  background: #111318;
+  background: #ffffff; /* Changed from dark grey to white */
   transition: 0.2s;
 }
 
